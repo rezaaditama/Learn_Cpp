@@ -1,5 +1,5 @@
 #include <iostream> //perintah wajib untuk memanggil library
-using namespace std; 
+using namespace std;  
 
 int main() { 
  int tambah,kali,kurang;  //Membuat variabel dengan tipe intenger (angka) yang bernama tambah, kali, kurang
@@ -27,11 +27,12 @@ int main() {
  return 0; //untuk mengembalikan nilai (default)
 }
 
-//cin = memasukkan input
+//cin = memasukkan input (masukan)
 //cout = mengeluarkan output
 //>>a = masukkan ke dalam variabel a
 //<<a = keluarkan isi dari variabel a
 //endl = menambahkan garis baru atau enter (endline)
 //int = intenger (angka)
 //double = pecahan atau desimal
+
 
