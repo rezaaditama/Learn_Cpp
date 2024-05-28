@@ -1,38 +1,76 @@
-#include <iostream> //perintah wajib untuk memanggil library
-using namespace std;  
+//#include <iostream>
+//using namespace std;
+//
+//int main() {
+//	int suhu; //Buat sebuah variabel dengan tipe data integer dengan nama suhu
+//	
+//	cout<<"Masukkan suhu air: ";
+//	cin>>suhu; //Minta input dari user kemudian masukkan ke dalam variabel suhu
+//	
+//	if(suhu<=0){
+//		cout<<"Maka air dalam keadaaan padat"; //jika suhu kurang dari 0 maka ...
+//	} else if(suhu <=100){
+//		cout<<"Maka air dalam keadaan cair"; //Jika suhu kurang dari 100 maka...
+//	}else if(suhu>=100){
+//		cout<<"Maka air dalam keadaan gas"; // Jika suhu lebih dari 100 maka ...
+//	}
+//}
 
-int main() { 
- int tambah,kali,kurang;  //Membuat variabel dengan tipe intenger (angka) yang bernama tambah, kali, kurang
- double bagi, a,b; //Membuat variabel dengan tipe double (angka dan koma) yang bernama a, b, bagi
- 
- cout<<"=========================="<<endl; //cout<< untuk mengeluarkan output, cin>> untuk memasukkan input 
- cout<<"|KALKULATOR SEDERHANA C++|"<<endl; //endl berfungsi untuk menambahkan enter
- cout<<"=========================="<<endl<<endl; // << mengeluarkan nilai yang ada pada variabel, >> memasukkan nilai ke variabel
- 
- cout<<"Masukkan Nilai Pertama = ";cin>>a; //cin>> a (masukkan nilai dan simpan di variabel a) 
- cout<<"Masukkan Nilai Kedua = ";cin>>b;  //cin>> b (masukkan nilai dan simpan di variabel b)
- 
- tambah = a + b; //membuat variabel tambah (menjumlahkan variabel a dan variabel b)
- kurang = a - b; //membuat variabel kurang (mengurangi variabel a dan variabel b)
- kali   = a * b; //membuat variabel kali (mengalikan variabel a dan variabel b)
- bagi   = a / b; //membuat variabel bagi (membagi variabel a dan variabel b)
- 
- 
- 
- cout<<"====================="<<endl;
- cout<<"Hasil dari penjumlahan    : "<<tambah<<endl; //mengeluarkan nilai dari variabel tambah
- cout<<"Hasil dari pengurangan    : "<<kurang<<endl; //mengeluarkan nilai dari variabel kurang
- cout<<"Hasil dari perkalian      : "<<kali<<endl; //mengeluarkan nilai dari variabel kali
- cout<<"Hasil dari Pembagian      : "<<bagi<<endl; //mengeluarkan nilai dari variabel bagi
- return 0; //untuk mengembalikan nilai (default)
+//#include <iostream>
+//using namespace std;
+//
+//int main () {
+//	int musim; //Buat sebuah variabel dengan tipe data integer dengan nama musim
+//	
+//	cout<<"Masukkan pilihan (1-4) untuk mengetahui musim bulan ini : ";
+//	cin>>musim; //Meminta input kepada user kemudian di masukkan ke dalam variabel musim
+//	
+//	switch(musim){ //switch case, dimana semua case dilakukan satu  tergantung kondisi
+//		case 1:
+//			cout<<"Hujan";
+//			break; //untuk menghentikan pengkondisian
+//			case 2:
+//				cout<<"Panas";
+//				break;
+//				case 3:
+//					cout<<"Semi";
+//					break;
+//					case 4:
+//						cout<<"Gugur";
+//						break;
+//						default: //apabila pilihan user tidak ada akan memunculkan pesan default
+//							cout<<"Tidak memilih musim";
+//	}
+//}
+
+#include <iostream>
+using namespace std;
+
+int main () {
+	int musim; //Buat sebuah variabel dengan tipe data integer dengan nama musim
+	int a;
+	int b;
+	
+	
+	cin>>a;
+	cin>>b
+	cout<<"Masukkan pilihan (1-4) untuk mengetahui musim bulan ini : ";
+	cin>>musim; //Meminta input kepada user kemudian di masukkan ke dalam variabel musim
+	
+	switch(musim){ //switch case, dimana semua case dilakukan satu  tergantung kondisi
+		case 1:
+			cout<<"Hujan";
+			break; //untuk menghentikan pengkondisian
+			case 2:
+				cout<<"Panas";
+				break;
+				case 3:
+					cout<<"Semi";
+					break;
+					case 4:
+						cout<<"Gugur";
+						break;
+						default: //apabila pilihan user tidak ada akan memunculkan pesan default
+							cout<<"Tidak memilih musim";
+	}
 }
-
-//cin = memasukkan input (masukan)
-//cout = mengeluarkan output
-//>>a = masukkan ke dalam variabel a
-//<<a = keluarkan isi dari variabel a
-//endl = menambahkan garis baru atau enter (endline)
-//int = intenger (angka)
-//double = pecahan atau desimal
-
-
